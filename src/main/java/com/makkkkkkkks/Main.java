@@ -1,9 +1,6 @@
 package main.java.com.makkkkkkkks;
 
-import main.java.com.makkkkkkkks.listOperation.*;
-
-import java.util.ArrayList;
-import java.util.List;
+import main.java.com.makkkkkkkks.listOperation.Executor;
 
 public class Main {
     public static void main(String[] args) {

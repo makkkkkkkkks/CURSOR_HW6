@@ -3,8 +3,8 @@ package main.java.com.makkkkkkkks.listOperation;
 import java.util.List;
 
 public class CheckSimilarElement {
-    private List listA;
-    private List listB;
+    private List<Integer> listA;
+    private List<Integer> listB;
 
     public CheckSimilarElement(List listA, List listB) {
         this.listA = listA;
