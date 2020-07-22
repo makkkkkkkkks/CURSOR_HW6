@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Executor {
-    public  static void start(){
+    public static void start() {
         Divisible divisible = new Divisible(3, 6, 9, 12, 13, 18, 16);
         divisible.removeElement();
 
         FruitReplace fruitReplace = new FruitReplace("orange", "babana", "pineapple", "melone", "strawberry");
         fruitReplace.replaceFruit("orange", "grapefruit");
 
-        List listA = new ArrayList<Integer>();
-        List listB = new ArrayList<Integer>();
+        List<Integer> listA = new ArrayList<Integer>();
+        List<Integer> listB = new ArrayList<Integer>();
 
         listA.add(1);
         listA.add(2);
@@ -26,6 +26,7 @@ public class Executor {
         CheckSimilarElement checkSimilarElement = new CheckSimilarElement(listA, listB);
         checkSimilarElement.check();
 
-
+        CustomComparatorTreeSet customComparatorTreeSet = new CustomComparatorTreeSet(1, 2, 5, 345, -2);
+        System.out.println(customComparatorTreeSet);
     }
 }

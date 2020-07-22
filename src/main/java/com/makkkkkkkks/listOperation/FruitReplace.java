@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FruitReplace {
-    private List<String> list;
+    private final List<String> list;
 
     public FruitReplace(String... fruits) {
         list = Arrays.asList(fruits);
